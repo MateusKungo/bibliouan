@@ -1,0 +1,48 @@
+.info-Estudante{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   
+  
+
+    .img_estudante{
+        width: 200px;
+        height: 200px;
+
+        img{
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+}
+
+.estado{
+    display: flex;
+}
+
+.monotirizar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .info-Estudante{
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        padding: 20px;
+        height: 150px;
+        display: flex;
+        border-radius: 10px;
+        cursor: pointer;
+        justify-content: space-between;
+
+       .img_estudante{
+        img{
+            width: 100px;
+            height: 100px;
+        }
+       }
+    }
+
+    .dados_estudantes{
+        display: flex;
+    }
+}

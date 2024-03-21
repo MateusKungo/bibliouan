@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    text-decoration: none;
+  }
+  /*LoginStyle*/
+  section:nth-child(1){
+      height: 500px;
+  }
+  .headline_uan{
+      font-size: 6rem;
+      color: #3878f3;
+      text-align: center;
+  }
+  .login main {
+    background-image: url("../img/4247.jpg");
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .from {
+    background-color: #fff;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 20px;
+  }
+  
+  .from form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .entry {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .textHeadlogin {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .entry input {
+    padding: 20px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .from label {
+    color: #666;
+  }
+  .from button {
+    padding: 20px;
+    background-color: #3878f3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .from a {
+    text-align: center;
+  }
+  
+  
+  /*FimLoginStyle*/
