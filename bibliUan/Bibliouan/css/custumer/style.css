@@ -46,3 +46,40 @@
         display: flex;
     }
 }
+
+
+.relatorio{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    justify-content: center;
+    gap: 1.5rem;
+
+    article{
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+
+}
+
+
+.links_acessos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    justify-content: center;
+    gap: 1.5rem;
+
+    a{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 20px;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+        width: 200px;
+        border-radius: 10px;
+    }
+}
